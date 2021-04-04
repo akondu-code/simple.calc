@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="flex1">
+
+<div class="parent">
+
+<div class="display">
+    <p class="display-child" id="display">0</p>
+</div>
+
+<div class="calc-buttons">
+    
+    <div> <button class="func-button" type="button" onclick="addChar('(')"> ( </button></div>
+    <div><button class="func-button"  type="button" onclick="addChar(')')">)</button></div>
+    <div><button class="func-button" type="button" onclick="clearChr()" >C</button></div>
+    <div><button class="func-button" type="button" onclick="clearAll()">AC</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('7')">7</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('8')">8</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('9')">9</button></div>
+    <div><button class="func-button" type="button" onclick="addChar('/')" >&#247;</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('4')">4</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('5')">5</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('6')">6</button></div>
+    <div><button class="func-button" type="button" onclick="addChar('*')">x</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('1')">1</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('2')">2</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('3')">3</button></div>
+    <div><button class="func-button" type="button" onclick="addChar('-')">-</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('0')">0</button></div>
+    <div><button class="number-button" type="button" onclick="addChar('.')">.</button></div>
+    <div><button class="equal-sign" type="button" onclick="equalTo()">=</button></div>
+    <div><button class="func-button" type="button" onclick="addChar('+')" >+</button></div>
+
+</div>
+</div>
+
+</div>
+    
+    <script type="text/javascript" src="./calc.js"> </script>
+</body>
+</html>
